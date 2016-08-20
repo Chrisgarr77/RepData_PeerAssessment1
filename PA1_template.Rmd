@@ -10,7 +10,11 @@ activityData <- read.csv("activity.csv", header = T)
 summary(activityData)
 ```
 
+<<<<<<< HEAD
 The dataset appears to be tidy and therefore I will not perform any transformations to the dataset.
+=======
+The dataset appears to be tidy and therefore I will not perform any transformations until the last question. 
+>>>>>>> 71841033634c1a897150eceb0f9e37aad666dea4
 
 ## What is the mean total number of steps taken each day? 
 
@@ -114,3 +118,7 @@ library(ggplot2)
 ggplot(averageStepsNewData, aes(interval, steps)) + geom_line() + facet_grid(dateType ~.) + xlab("5th-minute interval") + ylab("Average number of steps")
 ```
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 71841033634c1a897150eceb0f9e37aad666dea4
